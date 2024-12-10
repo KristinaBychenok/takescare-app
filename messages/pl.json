@@ -1,0 +1,231 @@
+{
+  "header": {
+    "reportButton": "Zgłoś problem",
+    "appointmentButton": "Umów wizytę"
+  },
+  "nav": {
+    "elems": {
+      "homePage": "Strona główna",
+      "onlineVisits": "Wizyty online",
+      "homeVisits": "Wizyty domowe",
+      "stationaryVisits": "Wizyty stacjonarne",
+      "secondOpinion": "Druga opinia",
+      "activityLog": "Dziennik aktywności",
+      "specialistCalendar": "Kalendarz specjalisty",
+      "reports": "Raporty",
+      "settings": "Ustawienia",
+      "faq": "FAQ",
+      "logOut": "Wyloguj się"
+    }
+  },
+  "homeVisits": {
+    "sidebar": {
+      "title": "Przejdź do",
+      "patient": {
+        "title": "Pacjent",
+        "age": "Wiek pacjenta",
+        "patientData": "Dane pacjenta",
+        "symptoms": "Objawy",
+        "docType": "Dokument",
+        "address": "Dane adresowe"
+      },
+      "visit": {
+        "title": "Wizyta",
+        "requestNumber": "Numer zgłoszenia",
+        "visitType": "Rodzaj wizyty",
+        "specialization": "Specjalizacja",
+        "visitDate": "Data wizyty",
+        "topic": "Temat",
+        "additionalInformation": "Dodatkowe informacje",
+        "languageOfVisit": "Język wizyty"
+      }
+    },
+    "title": "Umawianie wizyty",
+    "breadcrumb": {
+      "0": "Wizyty domowe",
+      "1": "Umawianie wizyty"
+    },
+    "homeVisitsButtons": {
+      "add": "Dodaj pacjenta",
+      "next": "Dalej"
+    },
+    "visit": {
+      "title": "Wizyta",
+      "fields": {
+        "requestNumber": {
+          "title": "Numer zgłoszenia",
+          "placeholder": "Wpisz numer zgłoszenia",
+          "error": {
+            "required": "Numer zgłoszenia jest wymagany"
+          }
+        },
+        "visitType": {
+          "title": "Rodzaj wizyty",
+          "placeholder": "Wybierz z listy",
+          "error": {
+            "required": "Rodzaj wizyty jest wymagany"
+          }
+        },
+        "specialization": {
+          "title": "Specjalizacja",
+          "placeholder": "Wybierz z listy",
+          "error": {
+            "required": "Specjalizacja jest wymagana"
+          }
+        },
+        "visitDate": {
+          "title": "Data wizyty",
+          "placeholder": "Jak najszybciej",
+          "error": {
+            "required": "Data wizyty jest wymagana"
+          }
+        },
+        "isSpecificTime": {
+          "title": "Wybierz konkretny przedział godzinowy",
+          "error": {}
+        },
+        "time": "Godzina",
+        "visitTimeFrom": {
+          "placeholder": "Od",
+          "error": {}
+        },
+        "visitTimeTo": {
+          "placeholder": "Do",
+          "error": {}
+        },
+        "topic": {
+          "title": "Temat",
+          "placeholder": "Wybierz z listy",
+          "error": {
+            "required": "Temat jest wymagany"
+          }
+        },
+        "additionalInformation": {
+          "title": "Dodatkowe informacje (opcjonalnie)",
+          "placeholder": "Opisz problem",
+          "error": {}
+        },
+        "languageOfVisit": {
+          "title": "Język wizyty",
+          "placeholder": "Wybierz z listy",
+          "error": {}
+        }
+      }
+    },
+    "patient": {
+      "title": "Pacjent",
+      "fields": {
+        "age": {
+          "title": "Wiek pacjenta",
+          "options": {
+            "adult": "Dorosły",
+            "child": "Dziecko"
+          },
+          "errors": {
+            "required": "Wiek jest wymagany"
+          }
+        },
+        "patientData": {
+          "title": "Dane pacjenta",
+          "name": {
+            "placeholder": "Imię",
+            "errors": {
+              "required": "Imię jest wymagane"
+            }
+          },
+          "surname": {
+            "placeholder": "Nazwisko",
+            "errors": {
+              "required": "Nazwisko jest wymagane"
+            }
+          }
+        },
+        "symptoms": {
+          "title": "Objawy (opcjonalnie)",
+          "placeholder": "Wybierz z listy",
+          "errors": {}
+        },
+        "docType": {
+          "title": "Dokument",
+          "options": {
+            "pesel": "PESEL",
+            "passport": "Paszport"
+          },
+          "errors": {
+            "required": "Typ dokumentu jest wymagany"
+          }
+        },
+        "pesel": {
+          "placeholder": "Wpisz numer PESEL",
+          "errors": {
+            "required": "Numer PESEL jest wymagany",
+            "minLength": "Numer PESEL musi mieć 11 cyfr",
+            "maxLength": "Numer PESEL musi mieć 11 cyfr",
+            "pattern": "Numer PESEL musi zawierać tylko cyfry"
+          }
+        },
+        "passportNumber": {
+          "placeholder": "Numer paszportu",
+          "errors": {
+            "required": "Numer paszportu jest wymagany",
+            "minLength": "Numer paszportu musi mieć 9 cyfr",
+            "maxLength": "Numer paszportu musi mieć 9 cyfr",
+            "pattern": "Numer paszportu musi zaczynać się od 2 liter, a następnie 7 cyfr"
+          }
+        },
+        "dateOfBirth": {
+          "placeholder": "Data urodzenia",
+          "errors": {
+            "required": "Data urodzenia jest wymagana"
+          }
+        },
+        "address": {
+          "title": "Dane adresowe",
+          "country": {
+            "placeholder": "Kraj",
+            "errors": {
+              "required": "Kraj jest wymagany"
+            }
+          },
+          "street": {
+            "placeholder": "Ulica",
+            "errors": {
+              "required": "Ulica jest wymagana"
+            }
+          },
+          "appartment": {
+            "placeholder": "Nr lokalu",
+            "errors": {
+              "required": "Nr lokalu jest wymagane"
+            }
+          }
+        },
+        "isOtherAddress": {
+          "title": "Wizyta ma się odbyć na inny adres",
+          "errors": {}
+        },
+        "visitAddress": {
+          "title": "Dane adresowe wizyty",
+          "country": {
+            "placeholder": "Kraj",
+            "errors": {
+              "required": "Kraj wizyty jest wymagany"
+            }
+          },
+          "street": {
+            "placeholder": "Ulica",
+            "errors": {
+              "required": "Ulica wizyty jest wymagana"
+            }
+          },
+          "appartment": {
+            "placeholder": "Nr lokalu",
+            "errors": {
+              "required": "Mieszkanie wizyty jest wymagane"
+            }
+          }
+        }
+      }
+    }
+  }
+}

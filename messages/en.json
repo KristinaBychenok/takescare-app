@@ -1,0 +1,231 @@
+{
+  "header": {
+    "reportButton": "Report a problem",
+    "appointmentButton": "Make an appointment"
+  },
+  "nav": {
+    "elems": {
+      "homePage": "Home page",
+      "onlineVisits": "Online visits",
+      "homeVisits": "Home visits",
+      "stationaryVisits": "Stationary visits",
+      "secondOpinion": "Second opinion",
+      "activityLog": "Activity log",
+      "specialistCalendar": "Specialist calendar",
+      "reports": "Reports",
+      "settings": "Settings",
+      "faq": "FAQ",
+      "logOut": "Log out"
+    }
+  },
+  "homeVisits": {
+    "sidebar": {
+      "title": "Go to",
+      "patient": {
+        "title": "Patient",
+        "age": "Patient Age",
+        "patientData": "Patient Data",
+        "symptoms": "Symptoms",
+        "docType": "Document",
+        "address": "Address"
+      },
+      "visit": {
+        "title": "Visit",
+        "requestNumber": "Request Number",
+        "visitType": "Visit Type",
+        "specialization": "Specialization",
+        "visitDate": "Visit Date",
+        "topic": "Topic",
+        "additionalInformation": "Additional Information",
+        "languageOfVisit": "Language Of Visit"
+      }
+    },
+    "title": "Making an appointment",
+    "breadcrumb": {
+      "0": "Home Visits",
+      "1": "Making Appointment"
+    },
+    "homeVisitsButtons": {
+      "add": "Add Patient",
+      "next": "Next"
+    },
+    "visit": {
+      "title": "Visit",
+      "fields": {
+        "requestNumber": {
+          "title": "Request Number",
+          "placeholder": "Enter the request number",
+          "error": {
+            "required": "Request Number is required"
+          }
+        },
+        "visitType": {
+          "title": "Visit Type",
+          "placeholder": "Select a Visit Type",
+          "error": {
+            "required": "Visit Type is required"
+          }
+        },
+        "specialization": {
+          "title": "Specialization",
+          "placeholder": "Select from list",
+          "error": {
+            "required": "Specialization is required"
+          }
+        },
+        "visitDate": {
+          "title": "Date of Visit",
+          "placeholder": "As soon as possible",
+          "error": {
+            "required": "Date of visit is required"
+          }
+        },
+        "isSpecificTime": {
+          "title": "Select a specific time slot",
+          "error": {}
+        },
+        "time": "Time",
+        "visitTimeFrom": {
+          "placeholder": "Time from",
+          "error": {}
+        },
+        "visitTimeTo": {
+          "placeholder": "Time to",
+          "error": {}
+        },
+        "topic": {
+          "title": "Topic",
+          "placeholder": "Select from list",
+          "error": {
+            "required": "Topic is required"
+          }
+        },
+        "additionalInformation": {
+          "title": "Additional Information (optional)",
+          "placeholder": "Describe the problem",
+          "error": {}
+        },
+        "languageOfVisit": {
+          "title": "Language of Visit",
+          "placeholder": "Select from list",
+          "error": {}
+        }
+      }
+    },
+    "patient": {
+      "title": "Patient",
+      "fields": {
+        "age": {
+          "title": "Patient Age",
+          "options": {
+            "adult": "Adult",
+            "child": "Child"
+          },
+          "errors": {
+            "required": "Age is required"
+          }
+        },
+        "patientData": {
+          "title": "Patient Details",
+          "name": {
+            "placeholder": "Name",
+            "errors": {
+              "required": "Name is required"
+            }
+          },
+          "surname": {
+            "placeholder": "Surname",
+            "errors": {
+              "required": "Surname is required"
+            }
+          }
+        },
+        "symptoms": {
+          "title": "Symptoms (optional)",
+          "placeholder": "Select symptoms from list",
+          "errors": {}
+        },
+        "docType": {
+          "title": "Document",
+          "options": {
+            "pesel": "PESEL",
+            "passport": "Passport"
+          },
+          "errors": {
+            "required": "Document Type is required"
+          }
+        },
+        "pesel": {
+          "placeholder": "Enter the PESEL number",
+          "errors": {
+            "required": "PESEL is required",
+            "minLength": "PESEL must be 11 digits",
+            "maxLength": "PESEL must be 11 digits",
+            "pattern": "PESEL must contain only numbers"
+          }
+        },
+        "passportNumber": {
+          "placeholder": "Passport Number",
+          "errors": {
+            "required": "Passport Number is required",
+            "minLength": "Passport Number must be 9 digits",
+            "maxLength": "Passport Number must be 9 digits",
+            "pattern": "Passport Number must start with 2 letters followed by 7 digits"
+          }
+        },
+        "dateOfBirth": {
+          "placeholder": "Date of Birth",
+          "errors": {
+            "required": "Date of Birth is required"
+          }
+        },
+        "address": {
+          "title": "Address Details",
+          "country": {
+            "placeholder": "Country",
+            "errors": {
+              "required": "Country is required"
+            }
+          },
+          "street": {
+            "placeholder": "Street",
+            "errors": {
+              "required": "Street is required"
+            }
+          },
+          "appartment": {
+            "placeholder": "Apart.",
+            "errors": {
+              "required": "Apartment is required"
+            }
+          }
+        },
+        "isOtherAddress": {
+          "title": "The visit is to take place at a different address",
+          "errors": {}
+        },
+        "visitAddress": {
+          "title": "Address Details for the Visit",
+          "country": {
+            "placeholder": "Country",
+            "errors": {
+              "required": "Country for visit is required"
+            }
+          },
+          "street": {
+            "placeholder": "Street",
+            "errors": {
+              "required": "Street for visit is required"
+            }
+          },
+          "appartment": {
+            "placeholder": "Apartment",
+            "errors": {
+              "required": "Apartment for visit is required"
+            }
+          }
+        }
+      }
+    }
+  }
+}
